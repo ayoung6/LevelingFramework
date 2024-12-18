@@ -300,7 +300,7 @@ customCommandHooks.registerCommand("lfimportesps", function(pid, cmd)
     LevelingFramework.importESPs()
     tes3mp.SendMessage(pid, "Imported ESPs!")
 end)
-customCommandHooks.setRankRequirment("lfimportesps", LevelingFramework.config.cmdRank)
+customCommandHooks.setRankRequirement("lfimportesps", LevelingFramework.config.cmdRank)
 
 
 return LevelingFramework
